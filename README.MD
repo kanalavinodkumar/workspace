@@ -28,4 +28,4 @@
 
 * #### To switch between workspace<br/>
     <ins>cmd</ins>: terraform workspace select dev<br/>
-    <ins>o/p</ins>:Switched to workspace "dev".
+    <ins>o/p</ins>: Switched to workspace "dev".
