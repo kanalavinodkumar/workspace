@@ -1,25 +1,29 @@
-### Workspace
+## Workspace
 
-* To show current workspace<br/>
-command: terraform workspace show<br/>
-o/p: default<br/>
+* #### To show current workspace<br/>
+    <ins>command</ins>: terraform workspace show<br/>
+    <ins>o/p</ins>: default<br/>
 
-* To create a new workspace<br/>
-command: terraform workspace new dev<br/>
-o/p: Created and switched to workspace "dev"!<br/>
+* #### To create a new workspace<br/>
+    <ins>command</ins>: terraform workspace new dev<br/>
+    <ins>o/p</ins>: Created and switched to workspace "dev"!<br/>
 
-command: terraform workspace new prod<br/>
-o/p: Created and switched to workspace "prod"!<br/>
+    <ins>command</ins>: terraform workspace new qa<br/>
+    <ins>o/p</ins>: Created and switched to workspace "qa"!<br/>
 
-* To show all available workspace<br/>
-command: terraform workspace list<br/>
-o/p: default<br/>
- dev<br/>
- prod<br/>
+   <ins>command</ins>: terraform workspace new prod<br/>
+    <ins>o/p</ins>: Created and switched to workspace "prod"!<br/>
 
-* To switch between workspace<br/>
-command: terraform workspace select dev<br/>
-Switched to workspace "dev".
+* #### To show all available workspace<br/>
+    <ins>command</ins>: terraform workspace list<br/>
+    <ins>o/p</ins>: default<br/>
+         dev<br/>
+         qa<br/>
+         prod<br/>
+
+* #### To switch between workspace<br/>
+    <ins>command</ins>: terraform workspace select dev<br/>
+    <ins>o/p</ins>:Switched to workspace "dev".
 
 
 ![alt text](workspaces.avif)
