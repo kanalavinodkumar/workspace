@@ -16,7 +16,7 @@
 
 * #### To show all available workspace<br/>
     <ins>cmd</ins>: terraform workspace list<br/>
-    <ins>o/p</ins>: 
+    <ins>o/p</ins>: <br/>
     default<br/>
     dev<br/>
     qa<br/>
