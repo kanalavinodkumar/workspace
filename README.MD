@@ -16,10 +16,11 @@
 
 * #### To show all available workspace<br/>
     <ins>cmd</ins>: terraform workspace list<br/>
-    <ins>o/p</ins>: default<br/>
-                    dev<br/>
-                    qa<br/>
-                    prod<br/>
+    <ins>o/p</ins>: 
+    default<br/>
+    dev<br/>
+    qa<br/>
+    prod<br/>
 
 * #### To switch between workspace<br/>
     <ins>cmd</ins>: terraform workspace select dev<br/>
