@@ -21,11 +21,15 @@
 * #### To show all available workspace<br/>
     <ins>cmd</ins>: terraform workspace list<br/>
     <ins>o/p</ins>: <br/>
-    default<br/>
-    dev<br/>
-    qa<br/>
-    prod<br/>
+       default<br/>
+      *dev<br/>
+       qa<br/>
+       prod<br/>
 
 * #### To switch between workspace<br/>
     <ins>cmd</ins>: terraform workspace select dev<br/>
     <ins>o/p</ins>: Switched to workspace "dev".
+
+* #### To delete workspace<br/>
+    <ins>cmd</ins>: terraform workspace delete dev<br/>
+    <ins>o/p</ins>: Deleted workspace "prod"!<br/>
