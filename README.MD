@@ -32,4 +32,4 @@
 
 * #### To delete workspace<br/>
     <ins>cmd</ins>: terraform workspace delete dev<br/>
-    <ins>o/p</ins>: Deleted workspace "prod"!<br/>
+    <ins>o/p</ins>: Deleted workspace "dev"!<br/>
