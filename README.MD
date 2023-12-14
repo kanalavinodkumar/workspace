@@ -1,5 +1,9 @@
 ## Workspace
 
+
+![alt text](workspaces.avif)
+
+
 * #### To show current workspace<br/>
     <ins>cmd</ins>: terraform workspace show<br/>
     <ins>o/p</ins>: default<br/>
@@ -25,6 +29,3 @@
 * #### To switch between workspace<br/>
     <ins>cmd</ins>: terraform workspace select dev<br/>
     <ins>o/p</ins>:Switched to workspace "dev".
-
-
-![alt text](workspaces.avif)
